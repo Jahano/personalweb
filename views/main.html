@@ -15,9 +15,9 @@
                 <h1 class="dHeader__h1">Titulo de la pagina</h1>
                 <nav class="dHeader__nav border">
                     <ul class="dHeader__ul flex-container">
-                        <li class="dHeader__li border"><a href="#sectOne">Principal</a></li>
-                        <li class="dHeader__li border"><a href="#sectTwo">Proyectos</a></li>
-                        <li class="dHeader__li border"><a href="#sectThree">Contacto</a></li>
+                        <li class="dHeader__li "><a href="#sectOne">Principal</a></li>
+                        <li class="dHeader__li "><a href="#sectTwo">Proyectos</a></li>
+                        <li class="dHeader__li "><a href="#sectThree">Contacto</a></li>
                     </ul>
                 </nav>
             </header>
@@ -47,8 +47,25 @@
                 <section class="dMain__sect flex-container border" id="sectTwo">
                     
                 </section>
-                <section class="dMain__sect flex-container border" id="sectThree">
-                    
+                <section class="dMain__sect border flex-container" id="sectThree">                    
+                        <form class="dMain__form border"action="#">
+                            <div>
+                                <label for="">Nombre</label>
+                                <input type="text" name="nombre" id="dMain__nombre">
+                            </div>
+                            <div>
+                                <label for="">Correo</label>
+                                <input type="text" name="Correo" id="dMain__correo">
+                            </div>
+                            <div>
+                                <label for="">Comnentario</label>
+                                <input type="text" name="comentario" id="dMain__comentario">
+                            </div>
+                            <div>
+                                <input type="submit" value="Enviar">
+                            </div>
+
+                        </form>                    
                 </section>
             </main>
         </div>
