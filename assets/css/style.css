@@ -5,11 +5,12 @@
     font-family: 'Roboto', sans-serif;
     scroll-behavior: auto;    
     
+    
 }
 body,html{
     width: 100%;
     height: 100%;
-    background: #000;
+    background: rgb(63, 62, 62);
     color: #BBB;
     
 }
@@ -66,4 +67,7 @@ li{
 }
 .disp-n{
     display: none;;
+}
+.brd-10{
+    border-radius: 10px;
 }
