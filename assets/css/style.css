@@ -70,7 +70,7 @@
     overflow: hidden;
 }
 .main__section{
-    
+    background-color: rgba(240, 229, 229, 0.507);
     height: 100%;   
 }
 .aside{
