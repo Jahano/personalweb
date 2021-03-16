@@ -9,74 +9,30 @@
     <meta class="author" content="Noe Sanchez">
     <title>Main Page</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://kit.fontawesome.com/218cea0fd6.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="../assets/lightbox2-2.11.3/src/css/lightbox.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container flex-container ">
-        <div class="dHeader flex-container  brd-10 sh-1">
-           <header class="dHeader__header">                
-                <ul class="dHeader__ul flex-container">
-                    <li class="dHeader__h1"><h1>App Tittle</h1></li>
-                    <li class="dHeader__img"><img src="https://img.icons8.com/material/48/000000/list--v1.png"/></li>
+    
+    <div class="container">
+        
+        <header class="header">
+            <h1 class="header__h1">MyPersonalWeb</h1>
+            <nav class="header__nav">
+                <input type="checkbox" name="cbx-menu" id="cbx-menu">
+                <label for="cbx-menu" class="cbx-label"><i class="fas fa-bars"></i></label>    
+                <ul class="header__ul flex-container brd-rd5">                              
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Q&F</a></li>
                 </ul>
-               
-            </header>
-            
-        </div>
-        <div class="dMain">
-            <main class="dMain__main">
-                <section class="dMain__section brd-10">
-                    <article class="txt-c shw-1">
-                        <h2>Titulo de la seccion principal</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus et quam debitis minus, quidem sunt dolor recusandae! Nam nihil vitae corrupti molestias rem modi similique sequi cumque quibusdam, aut sit earum dolorem autem quod nostrum quis mollitia nulla quasi asperiores!                            
-                        </p>
-                        <div class="image-row brd-10">
-                            <a href="../assets/lightbox2-2.11.3/dist/images/Captura.JPG" data-lightbox="image-1" data-title="My caption" data-lightbox="roadtrip"><img src="../assets/lightbox2-2.11.3/dist/images/Captura.JPG" alt="SVN-Login" class="dMain__img"></a>
-
-                            <a href="../assets/lightbox2-2.11.3/dist/images/Captura1.JPG" data-lightbox="image-1" data-title="My caption" data-lightbox="roadtrip"><img src="../assets/lightbox2-2.11.3/dist/images/Captura1.JPG" alt="SVN-Login" class="dMain__img disp-n"></a>
-
-                            <a href="../assets/lightbox2-2.11.3/dist/images/Captura2.JPG" data-lightbox="image-1" data-title="My caption" data-lightbox="roadtrip"><img src="../assets/lightbox2-2.11.3/dist/images/Captura2.JPG" alt="SVN-Login" class="dMain__img disp-n"></a>
-
-                           
-                            <a href="../assets/lightbox2-2.11.3/dist/images/Captura4.JPG" data-lightbox="image-1" data-title="My caption" data-lightbox="roadtrip"><img src="../assets/lightbox2-2.11.3/dist/images/Captura4.JPG" alt="SVN-Login" class="dMain__img disp-n"></a>
-
-                            <a href="../assets/lightbox2-2.11.3/dist/images/Captura5.JPG" data-lightbox="image-1" data-title="My caption" data-lightbox="roadtrip"><img src="../assets/lightbox2-2.11.3/dist/images/Captura5.JPG" alt="SVN-Login" class="dMain__img disp-n"></a>
-                        </div>
-                        
-                    </article>
-                </section>
-                <section class="dMain__section brd-10">
-                    <article class="txt-c shw-1">
-                        <h2>Titulo de la seccion principal</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus et quam debitis minus, quidem sunt dolor recusandae! Nam nihil vitae corrupti molestias rem modi similique sequi cumque quibusdam, aut sit earum dolorem autem quod nostrum quis mollitia nulla quasi asperiores!</p>
-                        <a href="../assets/lightbox2-2.11.3/dist/images/Captura.JPG" data-lightbox="image-1" data-title="My caption">Image #1</a>
-                    </article>
-                </section>
-                <section class="dMain__section brd-10">
-                    <article class="txt-c shw-1">
-                        <h2>Titulo de la seccion principal</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus et quam debitis minus, quidem sunt dolor recusandae! Nam nihil vitae corrupti molestias rem modi similique sequi cumque quibusdam, aut sit earum dolorem autem quod nostrum quis mollitia nulla quasi asperiores!</p>
-                    </article>
-                </section>
-            </main>
-        </div>
-        <div class="dAside">
-            <aside class="dAside__aside">
-                <section>
-                    <article class="txt-c ">
-                        <h3 >Aside Title</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, ex dignissimos, sed officia nulla earum nam cumque impedit totam quasi esse reprehenderit? Dolores, placeat necessitatibus beatae incidunt in rem alias?</p>
-                    </article>
-                </section>
-            </aside>
-        </div>
-        <div class="dFooter wth-800 ">
-            <footer class="dFooter__footer">
-                <h3>Footer de la pagina</h3>
-            </footer>
-        </div>
+            </nav>
+        </header>
+        
+    
     </div>
     
     <script src="../assets/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
