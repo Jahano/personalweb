@@ -8,10 +8,11 @@
     
 }
 .container{
-    background-color: rgb(73, 109, 226);
+    background-color: rgb(141, 141, 141);
     width: 100%;    
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+        
 }
 .flex-container{
     display: flex;
@@ -66,12 +67,22 @@
        
 }
 .main{
-    
+    background-color: rgb(141, 141, 141);
     overflow: hidden;
 }
 .main__section{
-    background-color: rgba(240, 229, 229, 0.507);
-    height: 100%;   
+    background-color: rgb(141, 141, 141);
+    height: 100%;
+    flex-direction: column;    
+    
+}
+.main__article{
+    margin-top: 30px;
+    height: 50%;
+}
+.main__img-cont a img{
+    width:100%;
+    height: 300px;
 }
 .aside{
     text-align: center;
@@ -91,7 +102,7 @@
     height: 50%;
 }
 .aside__artc{
-    
+    height: 50%;
 }
 .aside__logo{
     width: 200px;
@@ -107,8 +118,7 @@
 }
 .aside__uni{
     font-size: 20px;
-    font-weight: 900;
-    
+    font-weight: 900; 
     
 }
 .aside__uni a{
@@ -157,6 +167,9 @@
 }
 .txt-sdw1{
     text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC, 2px 2px 2px rgba(41,48,206,0), 2px 2px 2px rgba(41,48,206,0);
+}
+.disp-n{
+    display: none;
 }
 @media only screen and (min-width:766px){
     *{
@@ -221,14 +234,43 @@
         padding: 5px;
     }
     .header__ul li a{
-    text-align: center;    
-    font-size: 2rem;
-    width: 10rem;
-    height: 3rem;
-    display: inline;
+        text-align: center;    
+        font-size: 2rem;
+        width: 10rem;
+        height: 3rem;
+        display: inline;
     }
+    
+    .main__section{
+        text-align: center;
+    }
+    .main__article{
+        margin-top: 30px;
+        height: 45%;
+    }
+    .main__img-cont a img{
+        width: 400px;
+        height: 200px;
+    }
+}
+@media only screen and (min-width:978px){
     .main__section{}
     .main__section{
         text-align: center;
     }
+    
+    .main__article{
+     
+        height: 100%;
+    }
+    .main-art-container{
+        display: flex;
+        height: 80%;
+        align-items: center;
+    }
+    .main__img-cont a img{
+        width: 450px;
+        height: 340px;
+    }
+
 }
